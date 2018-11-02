@@ -164,7 +164,7 @@ The order status page works differently than the rest of the pages. Unlike other
   <!-- Loading script asynchronously -->
   <script type="text/javascript">
       (function(a,b,c,d){
-      a='//tags.tiqcdn.com/utag/{{ settings.tealium_account }}/{{ settings.tealium_profile }}/{{ settings.tealium_environment }}/utag.js';
+      a='//tags.tiqcdn.com/utag/{{ tealium_account }}/{{ tealium_profile }}/{{ tealium_environment }}/utag.js';
       b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
       a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
       })();
